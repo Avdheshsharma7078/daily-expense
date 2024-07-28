@@ -1,0 +1,23 @@
+{
+  "name": "daily-expenses-app",
+  "version": "1.0.0",
+  "description": "Daily expenses sharing application backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.1",
+    "json2csv": "^5.0.0",
+    "mongoose": "^6.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "author": "Avdhesh Sharma",
+  "license": "ISC"
+}
